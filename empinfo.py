@@ -7,20 +7,20 @@ class Employee:
     def __str__(self):
         return "Id : "+str(self.__id)+"\nName : "+self.__name+"\nSal : "+str(self.__sal)+"\n"
     
-    def getId(self): #getter method
+    def getId(self): #
         return self.__id
     
     def getName(self):
         return self.__name
     
-    def setName(self,nm):#setter method
+    def setName(self,nm):#
         self.__name=nm
 
     def setSal(self,sal):
         self.__sal=sal
 
 if __name__=="__main__": #main function
-    emp1=Employee(111,"Apurva",40000) #added newly
+    emp1=Employee(111,"Apurva",40000) #
     emp2=Employee(222,"Mahesh",45000)
     emp3=Employee(333,"Ganesh",45000)
     emp4=Employee(444,"Nimish",40000)
